@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "HMKeyboardCtrl.h"
 
+@interface ViewController : HMKeyboardCtrl
+
+@property (weak, nonatomic) IBOutlet UITextField* txtInput;
+@property (weak, nonatomic) IBOutlet UILabel* lblOutput;
 
 @end
 

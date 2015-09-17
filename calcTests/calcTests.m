@@ -8,7 +8,12 @@
 
 #import <XCTest/XCTest.h>
 
+#import "CCParser.h"
+
 @interface calcTests : XCTestCase
+{
+    CCParser* _parser;
+}
 
 @end
 
@@ -17,6 +22,7 @@
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
+    _parser = [[CCParser alloc] init];
 }
 
 - (void)tearDown {
@@ -36,4 +42,54 @@
     }];
 }
 
+- (void)testUndefSymbol
+{
+    NSString* inputStr = @"1+3-b";
+    [_parser calculateString:inputStr
+                withCallback:^(float response) {
+                    NSLog(@"*** %.02lf", response);
+                }
+            andCallbackError:^(NSError *error) {
+                NSLog(@"*** %@", error.userInfo[ERROR_MSG]);
+            }];
+}
+
+- (void)testMissedLBR
+{
+    NSString* inputStr = @"1+3-(7+9";
+    [_parser calculateString:inputStr
+                withCallback:^(float response) {
+                    NSLog(@"*** %.02lf", response);
+                }
+            andCallbackError:^(NSError *error) {
+                NSLog(@"*** %@", error.userInfo[ERROR_MSG]);
+            }];
+}
+
+- (void)testIncorrectExpression
+{
+    NSString* inputStr = @"1+3/-7";
+    [_parser calculateString:inputStr
+                withCallback:^(float response) {
+                    NSLog(@"*** %.02lf", response);
+                }
+            andCallbackError:^(NSError *error) {
+                NSLog(@"*** %@", error.userInfo[ERROR_MSG]);
+            }];
+}
+
+- (void)testDivByZero
+{
+    NSString* inputStr = @"3/0";
+    [_parser calculateString:inputStr
+                withCallback:^(float response) {
+                    NSLog(@"*** %.02lf", response);
+                }
+            andCallbackError:^(NSError *error) {
+                NSLog(@"*** %@", error.userInfo[ERROR_MSG]);
+            }];
+}
+
 @end
+
+

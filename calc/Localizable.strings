@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  BarnabasFund
+
+  Created by Admin on 26/02/15.
+  Copyright (c) 2015 HappyMexanik. All rights reserved.
+*/
+
+"ERROR_UNDEFINED_SYMBOL"    = "Undefined symbol";
+"ERROR_WHERE_IS_LBR"        = "Where is ( ?";
+"ERROR_INCORRECT_EXP"       = "Incorrect expression";
+"ERROR_DIVISION_BY_ZERO"    = "Division by 0.";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A2CE35F1BAB26D400C7D387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2CE3591BAB26D400C7D387 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		3A2CE3601BAB26D400C7D387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2CE35B1BAB26D400C7D387 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		3A2CE36C1BAB283F00C7D387 /* HMKeyboardCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CE3641BAB283F00C7D387 /* HMKeyboardCtrl.m */; settings = {ASSET_TAGS = (); }; };
+		3A2CE36D1BAB283F00C7D387 /* HMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CE3661BAB283F00C7D387 /* HMScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		3A2CE36E1BAB283F00C7D387 /* CCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CE3691BAB283F00C7D387 /* CCParser.m */; settings = {ASSET_TAGS = (); }; };
+		3A2CE36F1BAB283F00C7D387 /* CCStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CE36B1BAB283F00C7D387 /* CCStack.m */; settings = {ASSET_TAGS = (); }; };
+		3A2CE3831BAB35DC00C7D387 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A2CE3821BAB35DC00C7D387 /* Localizable.strings */; settings = {ASSET_TAGS = (); }; };
 		3A9AC0461BA9D12E0010D81B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9AC0451BA9D12E0010D81B /* main.m */; };
 		3A9AC0491BA9D12E0010D81B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9AC0481BA9D12E0010D81B /* AppDelegate.m */; };
 		3A9AC04C1BA9D12E0010D81B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9AC04B1BA9D12E0010D81B /* ViewController.m */; };
@@ -35,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A2CE35A1BAB26D400C7D387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A2CE35C1BAB26D400C7D387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		3A2CE3631BAB283F00C7D387 /* HMKeyboardCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMKeyboardCtrl.h; sourceTree = "<group>"; };
+		3A2CE3641BAB283F00C7D387 /* HMKeyboardCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMKeyboardCtrl.m; sourceTree = "<group>"; };
+		3A2CE3651BAB283F00C7D387 /* HMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScrollView.h; sourceTree = "<group>"; };
+		3A2CE3661BAB283F00C7D387 /* HMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScrollView.m; sourceTree = "<group>"; };
+		3A2CE3681BAB283F00C7D387 /* CCParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCParser.h; sourceTree = "<group>"; };
+		3A2CE3691BAB283F00C7D387 /* CCParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCParser.m; sourceTree = "<group>"; };
+		3A2CE36A1BAB283F00C7D387 /* CCStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStack.h; sourceTree = "<group>"; };
+		3A2CE36B1BAB283F00C7D387 /* CCStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCStack.m; sourceTree = "<group>"; };
+		3A2CE3821BAB35DC00C7D387 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		3A9AC0411BA9D12E0010D81B /* calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9AC0451BA9D12E0010D81B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A9AC0471BA9D12E0010D81B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +96,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A2CE3581BAB26D400C7D387 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				3A2CE3591BAB26D400C7D387 /* LaunchScreen.storyboard */,
+				3A2CE35B1BAB26D400C7D387 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		3A2CE3621BAB283F00C7D387 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				3A2CE3631BAB283F00C7D387 /* HMKeyboardCtrl.h */,
+				3A2CE3641BAB283F00C7D387 /* HMKeyboardCtrl.m */,
+				3A2CE3651BAB283F00C7D387 /* HMScrollView.h */,
+				3A2CE3661BAB283F00C7D387 /* HMScrollView.m */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		3A2CE3671BAB283F00C7D387 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				3A2CE3681BAB283F00C7D387 /* CCParser.h */,
+				3A2CE3691BAB283F00C7D387 /* CCParser.m */,
+				3A2CE36A1BAB283F00C7D387 /* CCStack.h */,
+				3A2CE36B1BAB283F00C7D387 /* CCStack.m */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
 		3A9AC0381BA9D12E0010D81B = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +150,17 @@
 		3A9AC0431BA9D12E0010D81B /* calc */ = {
 			isa = PBXGroup;
 			children = (
+				3A2CE3621BAB283F00C7D387 /* GUI */,
+				3A2CE3671BAB283F00C7D387 /* Parser */,
 				3A9AC0471BA9D12E0010D81B /* AppDelegate.h */,
 				3A9AC0481BA9D12E0010D81B /* AppDelegate.m */,
 				3A9AC04A1BA9D12E0010D81B /* ViewController.h */,
 				3A9AC04B1BA9D12E0010D81B /* ViewController.m */,
-				3A9AC04D1BA9D12E0010D81B /* Main.storyboard */,
 				3A9AC0501BA9D12E0010D81B /* Assets.xcassets */,
+				3A9AC04D1BA9D12E0010D81B /* Main.storyboard */,
 				3A9AC0521BA9D12E0010D81B /* LaunchScreen.storyboard */,
 				3A9AC0551BA9D12E0010D81B /* Info.plist */,
+				3A2CE3581BAB26D400C7D387 /* Base.lproj */,
 				3A9AC0441BA9D12E0010D81B /* Supporting Files */,
 			);
 			path = calc;
@@ -117,6 +169,7 @@
 		3A9AC0441BA9D12E0010D81B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3A2CE3821BAB35DC00C7D387 /* Localizable.strings */,
 				3A9AC0451BA9D12E0010D81B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -244,6 +297,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A9AC0541BA9D12E0010D81B /* LaunchScreen.storyboard in Resources */,
+				3A2CE3831BAB35DC00C7D387 /* Localizable.strings in Resources */,
+				3A2CE3601BAB26D400C7D387 /* Main.storyboard in Resources */,
+				3A2CE35F1BAB26D400C7D387 /* LaunchScreen.storyboard in Resources */,
 				3A9AC0511BA9D12E0010D81B /* Assets.xcassets in Resources */,
 				3A9AC04F1BA9D12E0010D81B /* Main.storyboard in Resources */,
 			);
@@ -270,9 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2CE36E1BAB283F00C7D387 /* CCParser.m in Sources */,
 				3A9AC04C1BA9D12E0010D81B /* ViewController.m in Sources */,
 				3A9AC0491BA9D12E0010D81B /* AppDelegate.m in Sources */,
+				3A2CE36F1BAB283F00C7D387 /* CCStack.m in Sources */,
+				3A2CE36C1BAB283F00C7D387 /* HMKeyboardCtrl.m in Sources */,
 				3A9AC0461BA9D12E0010D81B /* main.m in Sources */,
+				3A2CE36D1BAB283F00C7D387 /* HMScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +368,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		3A2CE3591BAB26D400C7D387 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2CE35A1BAB26D400C7D387 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3A2CE35B1BAB26D400C7D387 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2CE35C1BAB26D400C7D387 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		3A9AC04D1BA9D12E0010D81B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,6 +574,7 @@
 				3A9AC0701BA9D12F0010D81B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A9AC0711BA9D12F0010D81B /* Build configuration list for PBXNativeTarget "calcTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +583,7 @@
 				3A9AC0731BA9D12F0010D81B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A9AC0741BA9D12F0010D81B /* Build configuration list for PBXNativeTarget "calcUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +592,7 @@
 				3A9AC0761BA9D12F0010D81B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
